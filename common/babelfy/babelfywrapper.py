@@ -5,6 +5,12 @@ import urllib.request
 
 from pybabelfy.babelfy import *
 
+"""
+Apparently pybabelfy attemps to catch named entity and concepts from the given sentecnce
+https://github.com/aghie/pybabelfy 
+"""
+
+
 KEY_FILE = 'babelfy.key'
 
 SPARQL_ENDPOINT_URL = "https://babelnet.org"

@@ -5,6 +5,7 @@ from subprocess import Popen
 from sys import argv
 from sys import stderr
 
+
 class GraphGenerator:
 
     def generate(self, turtle_filename, verbose=False):
@@ -33,6 +34,7 @@ class GraphGenerator:
 
         print('Graph generated and stored in: {}'.format(out_png))
         return out_png
+
 
 def main(args):
     arg_p = ArgumentParser('python generator.py', description='Generates a graph from a turtle file.')

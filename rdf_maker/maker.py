@@ -10,6 +10,7 @@ from common.nlputils import NLPUtils
 from common.stanfordcorenlp.corenlpfactory import CoreNLPFactory
 from common.triple import Triple
 
+
 class RDFMaker:
 
     __prefixed = {}
