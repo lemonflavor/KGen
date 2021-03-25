@@ -8,8 +8,8 @@ from common.nlputils import NLPUtils
 from common.stanfordcorenlp.corenlpwrapper import CoreNLPWrapper
 from common.triple import Triple
 
-class OpenIE:
 
+class OpenIE:
     def __stanford_openie(self, input, output, verbose=False):
         with open(input, 'r') as input_file:
             contents = input_file.read()

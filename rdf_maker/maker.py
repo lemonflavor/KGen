@@ -172,6 +172,7 @@ class RDFMaker:
 
         return output_filename
 
+
 def main(args):
     arg_p = ArgumentParser('python maker.py', description='Merges the unlinked triples with the corresponding entities and predicates.')
     arg_p.add_argument('Triples', metavar='triples', type=str, default=None, help='Triples file')

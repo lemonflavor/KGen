@@ -3,8 +3,11 @@ import os
 from subprocess import Popen
 from sys import stderr
 
-class ClausIEWrapper:
 
+class ClausIEWrapper:
+    """
+    ClausIE will take list of sentences and return a list of triples
+    """
     @staticmethod
     def run_clausie(input_filename, output_filename, verbose=False):
         source_dir = os.path.dirname(os.path.abspath(__file__))
